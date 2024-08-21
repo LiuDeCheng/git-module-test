@@ -1,4 +1,4 @@
-import { traverseFieldWidgetsOfContainer } from "@/utils/util";
+import { traverseFieldWidgetsOfContainer } from "submodule-components/utils/util";
 
 export default {
   inject: ['getGlobalDsv'],

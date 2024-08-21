@@ -72,15 +72,15 @@
 
 <script>
   import Draggable from 'vuedraggable'
-  import CodeEditor from '@/components/code-editor/index'
-  import i18n from "@/utils/i18n";
+  import CodeEditor from 'submodule-components/components/code-editor/index'
+  import i18n from "submodule-components/utils/i18n";
 
   export default {
     name: "OptionItemsSetting",
     mixins: [i18n],
     components: {
       Draggable,
-      //CodeEditor: () => import('@/components/code-editor/index'),
+      //CodeEditor: () => import('submodule-components/components/code-editor/index'),
       CodeEditor,
     },
     props: {

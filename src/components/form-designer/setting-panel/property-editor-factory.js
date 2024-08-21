@@ -1,5 +1,5 @@
-import {translate} from "@/utils/i18n"
-import emitter from '@/utils/emitter'
+import {translate} from "submodule-components/utils/i18n"
+import emitter from 'submodule-components/utils/emitter'
 
 export const createInputTextEditor = function (propName, propLabelKey) {
   return {

@@ -164,8 +164,8 @@
 </template>
 
 <script>
-  import VFormRender from '@/components/form-render/index'
-  import CodeEditor from '@/components/code-editor/index'
+  import VFormRender from 'submodule-components/components/form-render/index'
+  import CodeEditor from 'submodule-components/components/code-editor/index'
   import Clipboard from 'clipboard'
   import {
     deepClone,
@@ -173,13 +173,13 @@
     generateId,
     getQueryParam,
     traverseAllWidgets, addWindowResizeHandler
-  } from "@/utils/util"
-  import i18n from '@/utils/i18n'
-  import {generateCode} from "@/utils/code-generator";
-  import {genSFC} from "@/utils/sfc-generator";
-  import loadBeautifier from "@/utils/beautifierLoader";
+  } from "submodule-components/utils/util"
+  import i18n from 'submodule-components/utils/i18n'
+  import {generateCode} from "submodule-components/utils/code-generator";
+  import {genSFC} from "submodule-components/utils/sfc-generator";
+  import loadBeautifier from "submodule-components/utils/beautifierLoader";
   import { saveAs } from 'file-saver'
-  import SvgIcon from '@/components/svg-icon'
+  import SvgIcon from 'submodule-components/components/svg-icon'
 
   export default {
     name: "ToolbarPanel",

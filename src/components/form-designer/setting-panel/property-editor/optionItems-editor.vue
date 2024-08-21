@@ -6,8 +6,8 @@
 </template>
 
 <script>
-  import i18n from "@/utils/i18n"
-  import OptionItemsSetting from "@/components/form-designer/setting-panel/option-items-setting"
+  import i18n from "submodule-components/utils/i18n"
+  import OptionItemsSetting from "submodule-components/components/form-designer/setting-panel/option-items-setting"
 
   export default {
     name: "optionItems-editor",

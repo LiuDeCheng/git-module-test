@@ -1,5 +1,5 @@
-import {deepClone} from "@/utils/util"
-import FormValidators from '@/utils/validators'
+import {deepClone} from "submodule-components/utils/util"
+import FormValidators from 'submodule-components/utils/validators'
 
 export default {
   inject: ['refList', 'formConfig', 'getGlobalDsv', 'globalOptionData', 'globalModel', 'getOptionData'],

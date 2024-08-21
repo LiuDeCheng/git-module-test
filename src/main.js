@@ -8,10 +8,10 @@ import './utils/directive'
 import './icons'
 
 import 'element-ui/lib/theme-chalk/index.css'
-import '@/styles/index.scss'
-import '@/iconfont/iconfont.css'
+import 'submodule-components/styles/index.scss'
+import 'submodule-components/iconfont/iconfont.css'
 
-import {loadExtension} from '@/extension/extension-loader'
+import {loadExtension} from 'submodule-components/extension/extension-loader'
 
 loadExtension()
 

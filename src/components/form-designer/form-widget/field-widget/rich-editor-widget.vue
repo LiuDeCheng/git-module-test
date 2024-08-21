@@ -13,10 +13,10 @@
 <script>
   import FormItemWrapper from './form-item-wrapper'
   import {VueEditor} from 'vue2-editor'
-  import emitter from '@/utils/emitter'
-  import i18n, {translate} from "@/utils/i18n"
-  import {deepClone} from "@/utils/util"
-  import fieldMixin from "@/components/form-designer/form-widget/field-widget/fieldMixin"
+  import emitter from 'submodule-components/utils/emitter'
+  import i18n, {translate} from "submodule-components/utils/i18n"
+  import {deepClone} from "submodule-components/utils/util"
+  import fieldMixin from "submodule-components/components/form-designer/form-widget/field-widget/fieldMixin"
 
   export default {
     name: "rich-editor-widget",

@@ -1,5 +1,5 @@
-import {loadRemoteScript} from "@/utils/util";
-import {BEAUTIFIER_PATH} from "@/utils/config";
+import {loadRemoteScript} from "submodule-components/utils/util";
+import {BEAUTIFIER_PATH} from "submodule-components/utils/config";
 
 let beautifierObj
 

@@ -1,12 +1,12 @@
 import axios from 'axios'
 
-import VFormDesigner from '@/components/form-designer/index.vue'
-import VFormRender from '@/components/form-render/index.vue'
-import {loadExtension} from "@/extension/extension-loader"
+import VFormDesigner from 'submodule-components/components/form-designer/index.vue'
+import VFormRender from 'submodule-components/components/form-render/index.vue'
+import {loadExtension} from "submodule-components/extension/extension-loader"
 
-import '@/utils/directive'
-import '@/icons'
-import '@/iconfont/iconfont.css'
+import 'submodule-components/utils/directive'
+import 'submodule-components/icons'
+import 'submodule-components/iconfont/iconfont.css'
 
 loadExtension()
 

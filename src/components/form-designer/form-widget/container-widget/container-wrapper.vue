@@ -37,8 +37,8 @@
 </template>
 
 <script>
-  import i18n from "@/utils/i18n";
-  import containerMixin from "@/components/form-designer/form-widget/container-widget/containerMixin";
+  import i18n from "submodule-components/utils/i18n";
+  import containerMixin from "submodule-components/components/form-designer/form-widget/container-widget/containerMixin";
 
   export default {
     name: "container-wrapper",

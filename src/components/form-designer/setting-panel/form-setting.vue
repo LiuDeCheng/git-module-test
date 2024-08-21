@@ -122,9 +122,9 @@
 </template>
 
 <script>
-  import i18n from "@/utils/i18n"
-  import CodeEditor from '@/components/code-editor/index'
-  import {deepClone, insertCustomCssToHead, insertGlobalFunctionsToHtml} from "@/utils/util"
+  import i18n from "submodule-components/utils/i18n"
+  import CodeEditor from 'submodule-components/components/code-editor/index'
+  import {deepClone, insertCustomCssToHead, insertGlobalFunctionsToHtml} from "submodule-components/utils/util"
 
   export default {
     name: "form-setting",

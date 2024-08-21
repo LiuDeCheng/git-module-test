@@ -32,9 +32,9 @@
 </template>
 
 <script>
-  import i18n from "@/utils/i18n"
+  import i18n from "submodule-components/utils/i18n"
   import Draggable from 'vuedraggable'
-  import {deepClone} from "@/utils/util";
+  import {deepClone} from "submodule-components/utils/util";
 
   export default {
     name: "tab-customClass-editor",

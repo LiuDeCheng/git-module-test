@@ -8,8 +8,8 @@
 </template>
 
 <script>
-  import i18n from "@/utils/i18n";
-  import {deepClone} from "@/utils/util";
+  import i18n from "submodule-components/utils/i18n";
+  import {deepClone} from "submodule-components/utils/util";
 
   export default {
     name: "customClass-editor",

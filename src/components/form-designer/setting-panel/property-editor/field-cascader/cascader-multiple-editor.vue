@@ -5,8 +5,8 @@
 </template>
 
 <script>
-  import i18n from "@/utils/i18n"
-  import propertyMixin from "@/components/form-designer/setting-panel/property-editor/propertyMixin"
+  import i18n from "submodule-components/utils/i18n"
+  import propertyMixin from "submodule-components/components/form-designer/setting-panel/property-editor/propertyMixin"
 
   export default {
     name: "cascader-multiple-editor",

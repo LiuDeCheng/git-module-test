@@ -110,15 +110,15 @@
 </template>
 
 <script>
-import CodeEditor from '@/components/code-editor/index'
+import CodeEditor from 'submodule-components/components/code-editor/index'
 import PropertyEditors from './property-editor/index'
 import FormSetting from './form-setting'
 import WidgetProperties from './propertyRegister'
 import {
     addWindowResizeHandler,
-} from "@/utils/util";
-import i18n from "@/utils/i18n";
-import {propertyRegistered} from "@/components/form-designer/setting-panel/propertyRegister";
+} from "submodule-components/utils/util";
+import i18n from "submodule-components/utils/i18n";
+import {propertyRegistered} from "submodule-components/components/form-designer/setting-panel/propertyRegister";
 
 const {COMMON_PROPERTIES, ADVANCED_PROPERTIES, EVENT_PROPERTIES} = WidgetProperties
 

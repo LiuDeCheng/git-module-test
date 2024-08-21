@@ -1,6 +1,6 @@
-import {isNotNull, traverseContainerWidgets, traverseFieldWidgets} from "@/utils/util";
-import {translate} from "@/utils/i18n";
-import FormValidators, {getRegExp} from "@/utils/validators";
+import {isNotNull, traverseContainerWidgets, traverseFieldWidgets} from "submodule-components/utils/util";
+import {translate} from "submodule-components/utils/i18n";
+import FormValidators, {getRegExp} from "submodule-components/utils/validators";
 
 export function buildDefaultValueListFn(formConfig, widgetList, resultList) {
   return function(fieldWidget) {
@@ -107,15 +107,15 @@ export const genVue2JS = function (formConfig, widgetList) {
         ${formConfig.modelName}: {
           ${defaultValueList.join('\n')}
         },
-        
+
         ${formConfig.rulesName}: {
           ${rulesList.join('\n')}
         },
-        
+
         ${activeTabs.join('\n')}
-        
+
         ${fieldOptions.join('\n')}
-        
+
         ${uploadData.join('\n')}
       }
     },
@@ -129,11 +129,11 @@ export const genVue2JS = function (formConfig, widgetList) {
       submitForm() {
         this.$refs['vForm'].validate(valid => {
           if (!valid) return
-          
+
           //TODO: 提交表单
         })
       },
-      
+
       resetForm() {
         this.$refs['vForm'].resetFields()
       }

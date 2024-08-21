@@ -5,12 +5,12 @@ import enLocaleElement from "element-ui/lib/locale/lang/en";
 import zhLocaleElement from "element-ui/lib/locale/lang/zh-CN";
 import locale from "element-ui/lib/locale"
 
-import enLocale from "@/lang/en-US";
-import zhLocale from "@/lang/zh-CN";
-import enLocale_render from "@/lang/en-US_render";
-import zhLocale_render from "@/lang/zh-CN_render";
-import enLocale_extension from "@/lang/en-US_extension";
-import zhLocale_extension from "@/lang/zh-CN_extension";
+import enLocale from "submodule-components/lang/en-US";
+import zhLocale from "submodule-components/lang/zh-CN";
+import enLocale_render from "submodule-components/lang/en-US_render";
+import zhLocale_render from "submodule-components/lang/zh-CN_render";
+import enLocale_extension from "submodule-components/lang/en-US_extension";
+import zhLocale_extension from "submodule-components/lang/zh-CN_extension";
 
 const langResources = {
   'en-US': {

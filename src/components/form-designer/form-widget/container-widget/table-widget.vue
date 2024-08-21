@@ -34,11 +34,11 @@
 </template>
 
 <script>
-  import i18n from "@/utils/i18n"
-  import containerMixin from "@/components/form-designer/form-widget/container-widget/containerMixin"
-  import ContainerWrapper from "@/components/form-designer/form-widget/container-widget/container-wrapper"
-  import TableCellWidget from "@/components/form-designer/form-widget/container-widget/table-cell-widget"
-  import refMixinDesign from "@/components/form-designer/refMixinDesign"
+  import i18n from "submodule-components/utils/i18n"
+  import containerMixin from "submodule-components/components/form-designer/form-widget/container-widget/containerMixin"
+  import ContainerWrapper from "submodule-components/components/form-designer/form-widget/container-widget/container-wrapper"
+  import TableCellWidget from "submodule-components/components/form-designer/form-widget/container-widget/table-cell-widget"
+  import refMixinDesign from "submodule-components/components/form-designer/refMixinDesign"
 
   export default {
     name: "table-widget",

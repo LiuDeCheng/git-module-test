@@ -6,9 +6,9 @@
  * remark: 如果要分发VForm源码，需在本文件顶部保留此文件头信息！！
  */
 
-import {deepClone, generateId, getDefaultFormConfig, overwriteObj} from "@/utils/util"
-import {containers, advancedFields, basicFields, customFields} from "@/components/form-designer/widget-panel/widgetsConfig.js"
-import {VARIANT_FORM_VERSION} from "@/utils/config"
+import {deepClone, generateId, getDefaultFormConfig, overwriteObj} from "submodule-components/utils/util"
+import {containers, advancedFields, basicFields, customFields} from "submodule-components/components/form-designer/widget-panel/widgetsConfig.js"
+import {VARIANT_FORM_VERSION} from "submodule-components/utils/config"
 
 export function createDesigner(vueInstance) {
   let defaultFormConfig = deepClone( getDefaultFormConfig() )

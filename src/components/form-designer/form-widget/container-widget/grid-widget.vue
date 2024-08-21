@@ -26,11 +26,11 @@
 </template>
 
 <script>
-  import i18n from "@/utils/i18n"
-  import GridColWidget from "@/components/form-designer/form-widget/container-widget/grid-col-widget"
-  import containerMixin from "@/components/form-designer/form-widget/container-widget/containerMixin"
-  import ContainerWrapper from "@/components/form-designer/form-widget/container-widget/container-wrapper"
-  import refMixinDesign from "@/components/form-designer/refMixinDesign"
+  import i18n from "submodule-components/utils/i18n"
+  import GridColWidget from "submodule-components/components/form-designer/form-widget/container-widget/grid-col-widget"
+  import containerMixin from "submodule-components/components/form-designer/form-widget/container-widget/containerMixin"
+  import ContainerWrapper from "submodule-components/components/form-designer/form-widget/container-widget/container-wrapper"
+  import refMixinDesign from "submodule-components/components/form-designer/refMixinDesign"
 
   export default {
     name: "grid-widget",

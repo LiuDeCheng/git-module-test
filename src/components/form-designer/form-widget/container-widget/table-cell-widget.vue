@@ -53,9 +53,9 @@
 
 <script>
   import Draggable from 'vuedraggable'
-  import i18n from "@/utils/i18n"
-  import FieldComponents from '@/components/form-designer/form-widget/field-widget/index'
-  import refMixinDesign from "@/components/form-designer/refMixinDesign"
+  import i18n from "submodule-components/utils/i18n"
+  import FieldComponents from 'submodule-components/components/form-designer/form-widget/field-widget/index'
+  import refMixinDesign from "submodule-components/components/form-designer/refMixinDesign"
 
   export default {
     name: "TableCellWidget",

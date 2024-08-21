@@ -3,8 +3,8 @@ import {
   buildDefaultValueListFn,
   buildFieldOptionsFn,
   buildRulesListFn, buildUploadDataFn
-} from "@/utils/vue2js-generator";
-import {traverseFieldWidgets} from "@/utils/util";
+} from "submodule-components/utils/vue2js-generator";
+import {traverseFieldWidgets} from "submodule-components/utils/util";
 
 export const genVue3JS = function (formConfig, widgetList) {
   let defaultValueList = []
@@ -22,7 +22,7 @@ export const genVue3JS = function (formConfig, widgetList) {
 
   const v3JSTemplate =
 `  import { defineComponent, toRefs, reactive, getCurrentInstance } from 'vue'
-  
+
   export default defineComponent({
     components: {},
     props: {},
@@ -31,32 +31,32 @@ export const genVue3JS = function (formConfig, widgetList) {
         ${formConfig.modelName}: {
           ${defaultValueList.join('\n')}
         },
-        
+
         ${formConfig.rulesName}: {
           ${rulesList.join('\n')}
         },
-        
+
         ${activeTabs.join('\n')}
-        
+
         ${fieldOptions.join('\n')}
-        
+
         ${uploadData.join('\n')}
       })
-    
+
       const instance = getCurrentInstance()
-      
+
       const submitForm = () => {
         instance.proxy.$refs['vForm'].validate(valid => {
           if (!valid) return
-          
+
           //TODO: 提交表单
         })
       }
-      
+
       const resetForm = () => {
         instance.proxy.$refs['vForm'].resetFields()
       }
-      
+
       return {
         ...toRefs(state),
         submitForm,

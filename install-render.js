@@ -1,5 +1,5 @@
-import VFormRender from '@/components/form-render/index.vue'
-import {loadExtension} from "@/extension/extension-loader"
+import VFormRender from 'submodule-components/components/form-render/index.vue'
+import {loadExtension} from "submodule-components/extension/extension-loader"
 import axios from "axios"
 
 loadExtension()

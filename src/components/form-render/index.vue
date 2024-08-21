@@ -38,15 +38,15 @@
 
 <script>
   //import ElForm from 'element-ui/packages/form/src/form.vue'  /* 用于源码调试Element UI */
-  import emitter from '@/utils/emitter'
+  import emitter from 'submodule-components/utils/emitter'
   import './container-item/index'
-  import FieldComponents from '@/components/form-designer/form-widget/field-widget/index'
+  import FieldComponents from 'submodule-components/components/form-designer/form-widget/field-widget/index'
   import {
     generateId, deepClone, getAllContainerWidgets, getAllFieldWidgets,
     insertCustomCssToHead,
     insertGlobalFunctionsToHtml,
     traverseFieldWidgets, buildDefaultFormJson
-  } from "@/utils/util"
+  } from "submodule-components/utils/util"
   import i18n, { changeLocale } from "../../utils/i18n"
 
   export default {

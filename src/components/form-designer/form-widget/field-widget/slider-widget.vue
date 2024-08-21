@@ -13,9 +13,9 @@
 
 <script>
   import FormItemWrapper from './form-item-wrapper'
-  import emitter from '@/utils/emitter'
-  import i18n, {translate} from "@/utils/i18n";
-  import fieldMixin from "@/components/form-designer/form-widget/field-widget/fieldMixin";
+  import emitter from 'submodule-components/utils/emitter'
+  import i18n, {translate} from "submodule-components/utils/i18n";
+  import fieldMixin from "submodule-components/components/form-designer/form-widget/field-widget/fieldMixin";
 
   export default {
     name: "slider-widget",

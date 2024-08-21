@@ -1,4 +1,4 @@
-import emitter from '@/utils/emitter'
+import emitter from 'submodule-components/utils/emitter'
 
 export default {
   mixins: [emitter],

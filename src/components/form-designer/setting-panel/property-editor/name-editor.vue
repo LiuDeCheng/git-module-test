@@ -17,8 +17,8 @@
 </template>
 
 <script>
-  import i18n from "@/utils/i18n"
-  import {isEmptyStr} from "@/utils/util"
+  import i18n from "submodule-components/utils/i18n"
+  import {isEmptyStr} from "submodule-components/utils/util"
 
   export default {
     name: "name-editor",

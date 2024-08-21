@@ -1,4 +1,4 @@
-import {buildClassAttr, buildContainerWidget, buildFieldWidget} from '@/utils/sfc-generator'
+import {buildClassAttr, buildContainerWidget, buildFieldWidget} from 'submodule-components/utils/sfc-generator'
 
 export const cardTemplateGenerator = function (cw, formConfig) {
   const wop = cw.options
@@ -42,7 +42,7 @@ export const alertTemplateGenerator = function(fw, formConfig) {
   const effectAttr = `effect="${wop.effect}"`
 
   const alertTemplate =
-`<el-alert ${titleAttr} ${typeAttr} ${descriptionAttr} ${closableAttr} ${closeTextAttr} ${centerAttr} 
+`<el-alert ${titleAttr} ${typeAttr} ${descriptionAttr} ${closableAttr} ${closeTextAttr} ${centerAttr}
   ${showIconAttr} ${effectAttr}>
 </el-alert>`
 

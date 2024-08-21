@@ -86,19 +86,19 @@
   import Draggable from 'vuedraggable'
   import {containers, basicFields, advancedFields, customFields} from "./widgetsConfig"
   import {formTemplates} from './templatesConfig'
-  import {addWindowResizeHandler} from "@/utils/util"
-  import i18n from "@/utils/i18n"
+  import {addWindowResizeHandler} from "submodule-components/utils/util"
+  import i18n from "submodule-components/utils/i18n"
   import axios from "axios"
-  import SvgIcon from '@/components/svg-icon'
+  import SvgIcon from 'submodule-components/components/svg-icon'
 
-  // import ftImg1 from '@/assets/ft-images/t1.png'
-  // import ftImg2 from '@/assets/ft-images/t2.png'
-  // import ftImg3 from '@/assets/ft-images/t3.png'
-  // import ftImg4 from '@/assets/ft-images/t4.png'
-  // import ftImg5 from '@/assets/ft-images/t5.png'
-  // import ftImg6 from '@/assets/ft-images/t6.png'
-  // import ftImg7 from '@/assets/ft-images/t7.png'
-  // import ftImg8 from '@/assets/ft-images/t8.png'
+  // import ftImg1 from 'submodule-components/assets/ft-images/t1.png'
+  // import ftImg2 from 'submodule-components/assets/ft-images/t2.png'
+  // import ftImg3 from 'submodule-components/assets/ft-images/t3.png'
+  // import ftImg4 from 'submodule-components/assets/ft-images/t4.png'
+  // import ftImg5 from 'submodule-components/assets/ft-images/t5.png'
+  // import ftImg6 from 'submodule-components/assets/ft-images/t6.png'
+  // import ftImg7 from 'submodule-components/assets/ft-images/t7.png'
+  // import ftImg8 from 'submodule-components/assets/ft-images/t8.png'
 
   export default {
     name: "FieldPanel",

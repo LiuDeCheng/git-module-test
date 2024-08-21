@@ -65,18 +65,18 @@
   import ToolbarPanel from './toolbar-panel/index'
   import SettingPanel from './setting-panel/index'
   import VFormWidget from './form-widget/index'
-  import {createDesigner} from "@/components/form-designer/designer"
+  import {createDesigner} from "submodule-components/components/form-designer/designer"
   import {
     addWindowResizeHandler,
     deepClone,
     getAllContainerWidgets,
     getAllFieldWidgets,
     getQueryParam, traverseAllWidgets
-  } from "@/utils/util"
-  import {MOCK_CASE_URL, VARIANT_FORM_VERSION} from "@/utils/config"
-  import i18n, { changeLocale } from "@/utils/i18n"
+  } from "submodule-components/utils/util"
+  import {MOCK_CASE_URL, VARIANT_FORM_VERSION} from "submodule-components/utils/config"
+  import i18n, { changeLocale } from "submodule-components/utils/i18n"
   import axios from "axios"
-  import SvgIcon from '@/components/svg-icon'
+  import SvgIcon from 'submodule-components/components/svg-icon'
 
   export default {
     name: "VFormDesigner",

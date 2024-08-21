@@ -26,10 +26,10 @@
 </template>
 
 <script>
-  import emitter from '@/utils/emitter'
+  import emitter from 'submodule-components/utils/emitter'
   import i18n from "../../../utils/i18n"
   import refMixin from "../../../components/form-render/refMixin"
-  import FieldComponents from '@/components/form-designer/form-widget/field-widget/index'
+  import FieldComponents from 'submodule-components/components/form-designer/form-widget/field-widget/index'
 
   export default {
     name: "TableCellItem",

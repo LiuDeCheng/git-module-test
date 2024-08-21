@@ -16,7 +16,7 @@
 </template>
 
 <script>
-  import i18n from "@/utils/i18n"
+  import i18n from "submodule-components/utils/i18n"
 
   export default {
     name: "file-upload-fileTypes-editor",
