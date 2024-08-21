@@ -35,12 +35,12 @@
 </template>
 
 <script>
-  import emitter from '@/utils/emitter'
-  import i18n from "@/utils/i18n"
-  import refMixin from "@/components/form-render/refMixin"
-  import ContainerItemWrapper from '@/components/form-render/container-item/container-item-wrapper'
-  import containerItemMixin from "@/components/form-render/container-item/containerItemMixin"
-  import FieldComponents from '@/components/form-designer/form-widget/field-widget/index'
+  import emitter from 'submodule-components/utils/emitter'
+  import i18n from "submodule-components/utils/i18n"
+  import refMixin from "submodule-components/components/form-render/refMixin"
+  import ContainerItemWrapper from 'submodule-components/components/form-render/container-item/container-item-wrapper'
+  import containerItemMixin from "submodule-components/components/form-render/container-item/containerItemMixin"
+  import FieldComponents from 'submodule-components/components/form-designer/form-widget/field-widget/index'
 
   export default {
     name: "card-item",
