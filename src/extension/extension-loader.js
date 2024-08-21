@@ -34,7 +34,7 @@ import {alertTemplateGenerator} from 'submodule-components/extension/samples/ext
 // import {registerFWGenerator} from '@/utils/sfc-generator'
 // import {alertTemplateGenerator} from '@/extension/samples/extension-sfc-generator'
 export const loadExtension = function () {
-
+  console.log('进入了配置')
   /**
    * 加载容器组件步骤：
    * 1. 加载组件Json Schema;
