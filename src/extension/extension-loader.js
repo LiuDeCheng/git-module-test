@@ -1,23 +1,38 @@
 import Vue from 'vue'
-
 import {
   addContainerWidgetSchema,
   addCustomWidgetSchema
-} from '@/components/form-designer/widget-panel/widgetsConfig'
-import * as PERegister from '@/components/form-designer/setting-panel/propertyRegister'
-import * as PEFactory from '@/components/form-designer/setting-panel/property-editor-factory'
+} from 'submodule-components/components/form-designer/widget-panel/widgetsConfig'
+import * as PERegister from 'submodule-components/components/form-designer/setting-panel/propertyRegister'
+import * as PEFactory from 'submodule-components/components/form-designer/setting-panel/property-editor-factory'
 
-import {cardSchema} from "@/extension/samples/extension-schema"
-import CardWidget from '@/extension/samples/card/card-widget'
-import CardItem from '@/extension/samples/card/card-item'
-import {registerCWGenerator} from '@/utils/sfc-generator'
-import {cardTemplateGenerator} from '@/extension/samples/extension-sfc-generator'
+import {cardSchema} from "submodule-components/extension/samples/extension-schema"
+import CardWidget from 'submodule-components/extension/samples/card/card-widget'
+import CardItem from 'submodule-components/extension/samples/card/card-item'
+import {registerCWGenerator} from 'submodule-components/utils/sfc-generator'
+import {cardTemplateGenerator} from 'submodule-components/extension/samples/extension-sfc-generator'
 
-import {alertSchema} from "@/extension/samples/extension-schema"
-import AlertWidget from '@/extension/samples/alert/alert-widget'
-import {registerFWGenerator} from '@/utils/sfc-generator'
-import {alertTemplateGenerator} from '@/extension/samples/extension-sfc-generator'
-
+import {alertSchema} from "submodule-components/extension/samples/extension-schema"
+import AlertWidget from 'submodule-components/extension/samples/alert/alert-widget'
+import {registerFWGenerator} from 'submodule-components/utils/sfc-generator'
+import {alertTemplateGenerator} from 'submodule-components/extension/samples/extension-sfc-generator'
+// import {
+//   addContainerWidgetSchema,
+//   addCustomWidgetSchema
+// } from '@/components/form-designer/widget-panel/widgetsConfig'
+// import * as PERegister from '@/components/form-designer/setting-panel/propertyRegister'
+// import * as PEFactory from '@/components/form-designer/setting-panel/property-editor-factory'
+//
+// import {cardSchema} from "@/extension/samples/extension-schema"
+// import CardWidget from '@/extension/samples/card/card-widget'
+// import CardItem from '@/extension/samples/card/card-item'
+// import {registerCWGenerator} from '@/utils/sfc-generator'
+// import {cardTemplateGenerator} from '@/extension/samples/extension-sfc-generator'
+//
+// import {alertSchema} from "@/extension/samples/extension-schema"
+// import AlertWidget from '@/extension/samples/alert/alert-widget'
+// import {registerFWGenerator} from '@/utils/sfc-generator'
+// import {alertTemplateGenerator} from '@/extension/samples/extension-sfc-generator'
 export const loadExtension = function () {
 
   /**
